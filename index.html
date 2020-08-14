@@ -30,18 +30,27 @@
             <h3>Full size</h3>
             <video controls>
                 <source src="videos/gitarr-sang-fullsize.mp4" type="video/mp4">
+                <track label="Guitar and song" kind="subtitles" srclang="en" src="guitar-captions.vtt" default>
             </video>
 
+            <!-- Converted videos have too low quality so the sound comes late and the video just in the end, but I want to 
+            keep them to remember and fix later, as I learn more. -->
             <h3>Converted with VLC</h3>
+            <!-- With manual bitrate setting -->
             <video controls>
                 <source src="videos/guitar.mp4" type="video/mp4">
             </video>
+            <!-- mp4 and ogg format -->
             <video controls>
                 <source src="videos/gitarr-sang.mp4" type="video/mp4">
                 <source src="videos/gitarr-sang.ogg" type="video/ogg">
             </video>
 
-
+            <!-- Larger file than the original, just to see how it works. Manually adjusted bit rate, frame rate and width. -->
+            <h3>Converted with VLC - High Quality</h3>
+            <video controls>
+                <source src="videos/guitar-again.mp4" type="video/mp4">
+            </video>
 
             <h2>The third video</h2>
             <h3>Full size</h3>
