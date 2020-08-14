@@ -1,13 +1,17 @@
-* {
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     margin: 0 auto;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* --------------- BASE ELEMENT STYLES ----------------- */
 
 body {
     color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
 
 header {
@@ -20,16 +24,24 @@ header {
 }
 
 main {
-    width: 80%;
+    max-width: 80%;
     text-align: center;
+}
+
+video,
+audio,
+.media {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 /* --------------- CLASS STYLES ----------------- */
 
 .wrapper {
     background-color: rgba(65, 191, 63, 0.86);
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .space {

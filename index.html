@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <h1>Video and audio with HTML</h1>
+        <h1>HTML Video and Audio</h1>
     </header>
 
     <main>
@@ -18,8 +18,28 @@
             <p>Some content here, maybe an image...</p>
         </div><!--/.space-->
         <div class="wrapper">
-            <h2>The video</h2>
-            <!-- Here goes the video -->
+            <h2>The first video</h2>
+            <video controls>
+                <!-- Two video sources because of two different file types are needed
+                for different browsers. -->
+                <source src="http://treehouse-code-samples.s3.amazonaws.com/html-video-and-audio/bridge.mp4" type="video/mp4">
+                <source src="http://treehouse-code-samples.s3.amazonaws.com/html-video-and-audio/bridge.ogg" type="video/ogg">
+            </video>
+
+            <h2>The second video</h2>
+            <video controls>
+                <source src="video2.mp4" type="video/mp4">
+            </video>
+
+            <h2>The third video</h2>
+            <video controls>
+                <source src="video3.mp4" type="video/mp4">
+            </video>
+
+            <h2>The Audio</h2>
+            <audio controls>
+                <source src="http://treehouse-code-samples.s3.amazonaws.com/html-video-and-audio/bridge-audio.mp3" type="audio/mp3">
+            </audio>
         </div><!--/.wrapper-->
     </main>
 </body>
