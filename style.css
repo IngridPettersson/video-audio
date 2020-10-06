@@ -36,6 +36,10 @@ audio,
     margin-bottom: 30px;
 }
 
+h2 {
+    text-shadow: 2px 2px burlywood;
+}
+
 h3 {
     color: rgb(167, 230, 148);
 }
@@ -43,7 +47,7 @@ h3 {
 /* --------------- CLASS STYLES ----------------- */
 
 .wrapper {
-    background-color: rgba(65, 191, 63, 0.86);
+    background-color: rgba(95, 236, 92, 0.61);
     padding-top: 30px;
     padding-bottom: 30px;
 }
